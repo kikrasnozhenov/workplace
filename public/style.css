@@ -1,0 +1,94 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, serif;
+    background-color: #313131 !important;
+    color: #fff !important;
+}
+a {
+    color: #fff !important;
+    text-shadow: 2px 2px #000000;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    overflow: auto;
+}
+.parent_test {
+    padding-top: 100px;
+}
+
+.test_selector{
+    display: block;
+    border: none;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    line-height: 70px;
+    font-weight: 400;
+    border-bottom: 1px solid #828282;
+    background-color: #6d6d6d;
+    z-index: 302;
+    box-shadow: 0px 6px 26px #d6d6d6;
+}
+.header_content {
+    font-size: 15px;
+    text-shadow: 2px 2px #000000;
+}
+
+.menu_item {
+    padding-left: 10px;
+}
+.menu_btn {
+    background-color: #6d6d6d !important;
+    border-color: #828282 !important;
+}
+.logo_title {
+    font-size: 20px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.login {
+    float: right;
+    padding-right: 30px;
+}
+
+.input_zone {
+    background: rgba(255, 255, 255, 0.55);
+    display: block;
+    border: none;
+    padding: 70px 50px;
+        border-radius: 9px;
+}
+.main_title {
+    padding-bottom: 40px;
+    font-size: 24px;
+    color: #ffffff;
+    text-shadow: 2px 2px rgb(136, 136, 136);
+}
+.form_visit:hover {
+    color: #fff;
+}
+.btn_box {
+    width: 100%;
+    height: 50px;
+    font-size: 16px !important;
+}
+
+.btn_right {
+	float: right;
+}

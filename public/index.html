@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <title>Workplace</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+  <script src="https://code.angularjs.org/1.5.7/angular-route.js"></script>
+  <script src="index.js"></script>
+</head>
+<body ng-app="wpApp">
+  <header id="header">
+    <span class="header_content">
+      <span class="menu_item">
+        <nav class="menu_btn btn btn-info btn-lg">
+            <span class="glyphicon glyphicon-align-justify"></span>
+        </nav>
+      </span>
+      <span class="logo_title">
+        <a href="#!/main">
+          ThisIsWorkplace
+        </a>
+      </span>
+      <span class="login">
+        <a href="#!/login">
+          Register | Login
+        </a>
+      </span>
+    </span>
+  </header>
+  <div ng-view></div>
+  <script type="text/javascript" src="photosCtrl.js"></script>
+</body>
+</html>

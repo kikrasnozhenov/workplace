@@ -1,0 +1,13 @@
+<div class="parent_test">
+  <div class="photo_test">
+    <div class="test_selector fadeInDown animated">
+      It is a test info
+    </div>
+    <div id="picture" class="test_selector" ng-repeat="photo in photos">
+      <img ng-src="{{photo.thumbnailUrl}}"/>
+      <div>
+        {{ photo.title }}
+      </div>
+    </div>
+  </div>
+</div>
