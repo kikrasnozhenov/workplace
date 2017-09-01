@@ -4,7 +4,8 @@ angular.module('wpApp', ['ngRoute'])
     $routeProvider
     .when("/", {
       templateUrl : "main.html",
-      controller : "photosCtrl"
+      controller : "photosCtrl",
+      controllerAs : 'vm'
     })
     .when("/login", {
       templateUrl : "login.html",

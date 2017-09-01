@@ -3,10 +3,10 @@
     <div class="test_selector fadeInDown animated">
       It is a test info
     </div>
-    <div id="picture" class="test_selector" ng-repeat="photo in photos">
-      <img ng-src="{{photo.thumbnailUrl}}"/>
+    <div id="picture" class="test_selector" ng-repeat="photo in vm.photos">
+      <img ng-src="{{vm.photo.thumbnailUrl}}"/>
       <div>
-        {{ photo.title }}
+        {{ vm.photos }}
       </div>
     </div>
   </div>

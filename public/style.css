@@ -42,7 +42,7 @@ a {
     border-bottom: 1px solid #828282;
     background-color: #6d6d6d;
     z-index: 302;
-    box-shadow: 0px 6px 26px #d6d6d6;
+    box-shadow: 0px 2px 26px #e0e0e0;
 }
 .header_content {
     font-size: 15px;
