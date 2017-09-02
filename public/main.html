@@ -3,11 +3,16 @@
     <div class="test_selector fadeInDown animated">
       It is a test info
     </div>
-    <div id="picture" class="test_selector" ng-repeat="photo in vm.photos">
-      <img ng-src="{{vm.photo.thumbnailUrl}}"/>
+    <div id="picture" class="test_selector info_block" ng-repeat="photo in vm.photos">
+      <img class="new_img" ng-src="{{photo.url}}"/>
       <div>
-        {{ vm.photos }}
+        {{photo.id}}
       </div>
+      <div>
+      	{{photo.title}}
+      </div>
+        <button type="button" class="btn_form btn btn-info btn-sm">Hold over</button>
+        <button type="button" class="btn btn-default btn-sm">Hide</button>
     </div>
   </div>
 </div>

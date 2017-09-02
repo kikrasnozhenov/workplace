@@ -15,11 +15,11 @@
     <span class="header_content">
       <span class="menu_item">
         <nav class="menu_btn btn btn-info btn-lg">
-            <span class="glyphicon glyphicon-align-justify"></span>
+            <span id="btn_open" class="glyphicon glyphicon-align-justify"></span>
         </nav>
       </span>
       <span class="logo_title">
-        <a href="#!/main">
+        <a href="#!/">
           ThisIsWorkplace
         </a>
       </span>
@@ -30,7 +30,25 @@
       </span>
     </span>
   </header>
+  <div id="menu_visibility" class="menu_hide">
+    <div class="menu_block">
+      <div class="menu_content">
+        <div class="item">
+          <a href="#!/">Home</a>
+        </div>
+        <div class="item">
+          <a href="#!/login">Your choise</a>
+        </div>
+        <div class="item">
+          <a href="#!/trash">Trash</a>
+        </div>
+      </div>
+    </div>
+    <span id="menu_hide" class="menu_overlay">
+    </span>
+  </div>
   <div ng-view></div>
-  <script type="text/javascript" src="photosCtrl.js"></script>
+  <script src="photosCtrl.js"></script>
+  <script src="menu_open.js"></script>
 </body>
 </html>
